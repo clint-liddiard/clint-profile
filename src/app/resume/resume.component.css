@@ -1,0 +1,14 @@
+.resume-container {
+  background-color: #a5a99d; /* Light gray background color */
+  height: 100vh; /* 100% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+app-pdf-display {
+  float: left;
+  margin-top: 20px; /* Adjust the margin as needed to separate it from the toolbar */
+}
+

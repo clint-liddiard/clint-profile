@@ -1,0 +1,41 @@
+nav {
+  background-color: #333; /* Background color for the navigation bar */
+  position: fixed;
+  top: 10%; /* Position the navigation bar 10% from the top of the viewport */
+  width: 100%; /* Set the navigation bar to span the entire width */
+  z-index: 1; /* Ensure the navigation bar is on top of other content */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px; /* Adjust the padding as needed */
+  transition: background-color 0.3s; /* Add a transition for smooth hover effect */
+
+  /* Style for the button when not hovered or active */
+  background-color: #333;
+  border: 1px solid #555;
+  border-radius: 5px;
+}
+
+a:hover {
+  background-color: #555; /* Change the background color on hover */
+}
+a.active {
+  color: #555; /* Change the text color for the active link */
+  pointer-events: none; /* Disable link click events for the active link */
+  /* You can also add additional styling like background color or underlines */
+}

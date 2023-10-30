@@ -1,0 +1,5 @@
+/* Modify the background color of the main content */
+.content {
+  background-color: #f0f0f0; /* Use your preferred shade of gray */
+  padding: 20px; /* Add padding to the content area for spacing */
+}
